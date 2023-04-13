@@ -1,7 +1,7 @@
 [
   id: kubernetes-manifest-load-balancer
   tags:
-    - manifest
+    - template
   locations:
 ]: #
 
