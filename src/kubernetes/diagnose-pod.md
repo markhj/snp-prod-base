@@ -1,5 +1,5 @@
 [
-  id: kubernetes
+  id: kubernetes-diagnose-pod
   tags:
     - debugging
   locations:
