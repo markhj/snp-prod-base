@@ -10,3 +10,39 @@ locations:
     name: Docker
     color: "#0b214a"
     icon: docker.svg
+    
+  - location:
+    target: /vue
+    name: Vue
+    color: ""
+    icon: vuejs.svg
+    
+  - location:
+    target: /git
+    name: Git
+    color: ""
+    icon: git.svg
+    
+  - location:
+    target: /kubernetes
+    name: Kubernetes
+    color: ""
+    icon: kubernetes.svg
+    
+  - location:
+    target: /laravel
+    name: Laravel
+    color: ""
+    icon: laravel.svg
+    
+  - location:
+    target: /react
+    name: React
+    color: ""
+    icon: react.svg
+    
+  - location:
+    target: /rust
+    name: Rust
+    color: ""
+    icon: rust.svg
