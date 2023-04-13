@@ -7,6 +7,8 @@
   locations:
 ]: #
 
+# Build alt. file
+
 ````bash
 docker build -f OtherDockerfile -t .
 ````
