@@ -9,6 +9,8 @@
 
 # Build alt. file
 
+You can build a Docker image from another file than the regular ``Dockerfile``.
+
 ````bash
 docker build -f OtherDockerfile -t .
 ````
