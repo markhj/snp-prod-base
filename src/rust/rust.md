@@ -1,5 +1,5 @@
 [
-  id: keep-docker-container-alive
+  id: rust-intro
   tags:
     - a
     - b
