@@ -46,3 +46,15 @@ locations:
     name: Rust
     color: ""
     icon: rust.svg
+    
+  - location:
+    target: /kubernetes/manifests
+    name: Manifest
+    color: ""
+    icon: null
+    
+  - location:
+    target: /kubernetes/manifests/templates
+    name: Templates
+    color: ""
+    icon: null
