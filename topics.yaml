@@ -64,3 +64,9 @@ locations:
     name: Templates
     color: ""
     icon: null
+    
+  - location:
+    target: /mysql
+    name: MySQL
+    color: ""
+    icon: null
