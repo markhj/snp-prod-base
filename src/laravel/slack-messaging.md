@@ -43,12 +43,8 @@ use Spatie\SlackAlerts\Facades\SlackAlert;
 SlackAlert::to('channel-name')->message('Hello world!');
 ````
 
-## Emojis
-````php
-SlackAlert::message('Hello world! :smile:');
-````
-
-All emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
+# Emojis
+https://www.webfx.com/tools/emoji-cheat-sheet/
 
 # Blocks
 
