@@ -1,12 +1,13 @@
 [
-  id: git-intro
+  id: git-cherry-pick
   tags:
-    - a
-    - b
-    - c
   locations:
 ]: #
 
-# Git
+# Cherry pick
 
-Setting up Git
+Merge a single commit (from anywhere, including other branches) into your current branch.
+
+````bash
+git cherry-pick <commit>
+````
