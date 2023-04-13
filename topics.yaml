@@ -24,6 +24,12 @@ locations:
     icon: git.svg
     
   - location:
+    target: /git/config
+    name: Configuration
+    color: ""
+    icon: null
+    
+  - location:
     target: /kubernetes
     name: Kubernetes
     color: ""
