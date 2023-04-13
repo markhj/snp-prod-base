@@ -1,5 +1,5 @@
 [
-  id: kubernetes
+  id: kubernetes-access-shell
   tags:
     - shell
     - debugging
