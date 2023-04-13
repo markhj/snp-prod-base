@@ -8,9 +8,13 @@
 # Diagnose a pod
 
 If a pod isn't starting or has other problems, you can retrieve vital information with the ``describe`` command.
-First get the list of pods, and then choose the ``NAME`` as ``<pod-name>``.
+
+````bash
+kubectl describe pod <pod-name>
+````
+
+To find the ``<pod-name>``, run the command below the ``NAME`` value.
 
 ````bash
 kubectl get pods
-kubectl describe pod <pod-name>
 ````
