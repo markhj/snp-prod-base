@@ -8,7 +8,7 @@
 # Slack messaging
 
 Start with:
-````
+````bash
 composer require spatie/laravel-slack-alerts
 php artisan vendor:publish --tag="slack-alerts-config"
 ````
@@ -20,7 +20,7 @@ Under Features > Incoming webhooks, add a new webhook.
 # Configuration
 In ``config/slack-alerts.php`` add webhooks.
 
-````
+````php
 'webhook_urls' => [
     'default' => env('SLACK_ALERT_WEBHOOK'),
     'notifications' => env('ANOTHER WEBHOOK'),
@@ -30,21 +30,21 @@ In ``config/slack-alerts.php`` add webhooks.
 
 # Sending
 ## Default channel
-````
+````php
 use Spatie\SlackAlerts\Facades\SlackAlert;
 // ...
 SlackAlert::message('Hello world!');
 ````
 
 ## Specified channel
-````
+````php
 use Spatie\SlackAlerts\Facades\SlackAlert;
 // ...
 SlackAlert::to('channel-name')->message('Hello world!');
 ````
 
 ## Emojis
-````
+````php
 SlackAlert::message('Hello world! :smile:');
 ````
 
