@@ -2,6 +2,21 @@
 
 ## Adding content
 
+## 💻 IDE plug-ins
+We want to offer integrated ways of quickly accessing our
+
+- Check that someone else didn't already write for the IDE you want.
+
+### Features
+- Ability to log in so bookmarked snippets can be accessed
+- Context-aware snippet selection. When editing a C# file, show C#-relevant snippets (first)
+
+### In-demand IDEs
+- VSCode
+- Visual Studio
+- JetBrains
+- Sublime Text
+
 ## ✍️ Writing viewers
 This repo is public and contains all the instructions used to organize and visualize the content shown at ``snippets.it.com``.
 
