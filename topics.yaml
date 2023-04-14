@@ -69,4 +69,10 @@ locations:
     target: /mysql
     name: MySQL
     color: ""
-    icon: null
+    icon: database.svg
+    
+  - location:
+    target: /css
+    name: CSS
+    color: ""
+    icon: css.svg

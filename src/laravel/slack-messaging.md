@@ -17,6 +17,8 @@ Set up an app at: https://api.slack.com/apps.
 
 Under Features > Incoming webhooks, add a new webhook.
 
+> :information_source: A webhook is tied to a channel. You will need a new webhook for every new channel you want to post in.
+
 # Configuration
 In ``config/slack-alerts.php`` add webhooks.
 
