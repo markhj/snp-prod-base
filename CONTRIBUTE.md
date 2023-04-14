@@ -11,7 +11,7 @@ We want to offer integrated ways of quickly accessing our
 - Ability to log in so bookmarked snippets can be accessed
 - Context-aware snippet selection. When editing a C# file, show C#-relevant snippets (first)
 
-## In-demand IDEs
+### In-demand IDEs
 - VSCode
 - Visual Studio
 - JetBrains
