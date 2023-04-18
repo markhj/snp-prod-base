@@ -4,7 +4,9 @@
   locations:
 ]: #
 
-# Resource names in CLI
+# Resource names in variables
+
+Retrieve a resource name, like a pod or service, and store it in a variable.
 
 ## Format
 ````bash
