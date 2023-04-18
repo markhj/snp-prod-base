@@ -6,21 +6,18 @@
 
 # Take user input
 
-Import:
-
 ````rust
-use std::io;
-````
+use std::io::{self, Write};
 
-Add where you want the functionality:
+fn main() {
+    print!("Enter name: ");
+    io::stdout().flush().unwrap();
 
-````rust
-println!("Enter name: ");
+    let mut input = String::new();
+    let stdin = io::stdin();
 
-let mut input = String::new();
-let stdin = io::stdin();
+    stdin.read_line(&mut input).unwrap();
 
-stdin.read_line(&mut input).unwrap();
-
-println!("\nHello, {} ", input);
+    println!("Hello, {} ", input);
+}
 ````
