@@ -1,10 +1,11 @@
 [
   id: keep-docker-container-alive
   tags:
-    - a
-    - b
-    - c
   locations:
 ]: #
 
-# Alive
+# Keep container alive
+
+````bash
+docker run <tag> tail -f /dev/null
+````
