@@ -1,0 +1,10 @@
+variables:
+  - variable:
+    id: kube-pod-name
+    name: Pod name
+    description: Name of your pod
+    guide: You can retrieve the pod name by running ``kubectl get pods``
+  - variable:
+    id: kube-pod-name
+    description: Name of your pod
+    guide: You can retrieve the pod name by running ``kubectl get pods``

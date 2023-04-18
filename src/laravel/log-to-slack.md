@@ -25,6 +25,18 @@ LOG_SLACK_WEBHOOK_URL=https://hooks.slack.com/services/abcdef12345
 
 Notice that ``LOG_CHANNEL`` is also changed.
 
+# Short messages
+You can hide the stacktrace and make the error message shorter in ``config/logging.php``:
+
+````php
+'slack' => [
+  // ...
+  'short' => true,
+  'context' => false,
+  // ...
+]
+````
+
 # Log stacks
 To combine multiple log channels together, for example to log different severities to different channels, please refer to:
 

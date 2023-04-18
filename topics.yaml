@@ -76,3 +76,9 @@ locations:
     name: CSS
     color: ""
     icon: css.svg
+    
+  - location:
+    target: /js
+    name: JavaScript
+    color: ""
+    icon: css.svg
