@@ -81,4 +81,10 @@ locations:
     target: /js
     name: JavaScript
     color: ""
-    icon: css.svg
+    icon: js.svg
+    
+  - location:
+    target: /regex
+    name: Regular expressions
+    color: ""
+    icon: regex.svg
