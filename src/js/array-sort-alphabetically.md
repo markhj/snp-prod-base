@@ -7,5 +7,5 @@
 # Sort array alphabetically
 
 ````js
-list.sort((a, b) => a.identity.localeCompare(b.identity))
+list.sort((a, b) => a.localeCompare(b))
 ````
