@@ -6,7 +6,7 @@
 
 # Delete all nodes
 
-````cipher
+````cypher
 MATCH (n)
 DETACH DELETE n
 ````
