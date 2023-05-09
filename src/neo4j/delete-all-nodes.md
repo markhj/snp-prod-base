@@ -10,7 +10,3 @@
 MATCH (n)
 DETACH DELETE n
 ````
-
-testing
- 123
-234
