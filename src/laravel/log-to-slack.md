@@ -6,7 +6,7 @@
 
 # Log to Slack
 
-Make Laravel's native logging system send messages to Slack.
+Make Laravel's native logging system send messages to Slack. 2
 
 First, make sure the channel you want to log to exists.
 
